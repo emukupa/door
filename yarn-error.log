@@ -1,0 +1,52 @@
+Arguments: 
+  /usr/local/Cellar/node/9.7.1_1/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.5/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Library/Frameworks/Python.framework/Versions/3.5/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  9.7.1
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "new",
+    "version": "1.0.0",
+    "description": "",
+    "keywords": [],
+    "homepage": "https://codesandbox.io/s/new",
+    "main": "src/index.js",
+    "dependencies": {
+      "react": "16.2.0",
+      "react-dom": "16.2.0",
+      "react-scripts": "1.1.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Couldn't find package "evp_bytestokey@^1.0.3" required by "browserify-aes@^1.0.4" on the "npm" registry.
+      at new MessageError (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:186:110)
+      at PackageRequest.<anonymous> (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:36274:17)
+      at Generator.throw (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:98:30)
+      at /usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:111:13
+      at <anonymous>
+      at process._tickCallback (internal/process/next_tick.js:118:7)
